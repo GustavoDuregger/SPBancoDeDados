@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="153364A2-5892-0E1E-F08E-24991B65A8C4" name="SP_CONTRATO">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>0479473F-9265-3C15-4A39-2FE9554AFC53</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTRATO_ID" id="07384A12-EF4C-A524-14B4-02F37DF8DA6A">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>964F0E55-CDDA-E5CB-9DE9-C485ED8DE924</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="AF2F114F-D738-F656-D97B-48322280651C">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>3174ABB3-13AB-C5CE-1CC7-0E3CCD81D088</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17BF3624-EC43-B64E-7FB0-953874347416" name="CONTRATO_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>716599AB-773B-7928-F53C-F5A955690DFB</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07384A12-EF4C-A524-14B4-02F37DF8DA6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

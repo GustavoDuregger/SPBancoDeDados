@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B04DDAF2-E492-A3AC-F93B-15E25B70AF68" name="SP_USUARIOS">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>173C8C90-3FE8-5BE7-6AF0-25A9A6188DEF</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF_ID" id="8E3527E9-B8E1-96B3-3DEE-76B6A3EC18D3">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>AC9C1079-0F9E-708F-EF68-9ACDA9990172</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="54E54116-1B3D-67DD-1E95-F74E302F43B4">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>C5C8EA1B-617C-B424-FB2B-71EE6B0580FF</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOBRENOME" id="4C538064-EC8B-7ED5-814D-FA4A3EED3B9D">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>2370BABE-98A8-59FA-2607-0B099F5D038A</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HISTORICO" id="14A8BD65-7A78-F83D-E798-4213EFAE8D3D">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>E54B51A5-D279-0CD2-14E1-7FB170D6E604</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONE" id="BBD7F5E5-7D5B-33E6-CA30-15376DFAF965">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>1C4C6B38-7A47-9FC3-93E4-4D570F5257E7</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QRCODE" id="65459200-0A40-B4BA-2558-483536C74122">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>F4BBF37B-276E-AC8D-8447-1B98E01F1F2E</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGIN_EMAIL_ID" id="2F59146B-465B-D88D-FCDA-F62FA0A71460">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>E86C8969-2CB8-8AB0-1795-7715BD874D1A</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B2D43D2-F380-1E8E-9E1B-7020C74F65A8" referredColumn="A284BBF4-0EB0-4986-5EBC-8FC22E61FFDE"/>
+</associations>
+</Column>
+<Column name="EMAIL_ID" id="FD66FB18-FD10-8757-9D4E-38697B7819F2">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:37:26 UTC</createdTime>
+<generatorID>8E18592F-9A17-82C9-2B09-67EEE530F7CE</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATO_CONTRATO_ID" id="75D7182A-1BEE-691E-1585-C3C847A740A3">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:39:15 UTC</createdTime>
+<generatorID>88412D4E-099A-9E5A-5874-EC55427C192E</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67ACEF19-A344-C178-34DD-27794A79AA6D" referredColumn="07384A12-EF4C-A524-14B4-02F37DF8DA6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECF42BA4-9CDB-A4EF-2CFA-AFA9C4E1DE98" name="USUARIOS_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>886E4F90-4A38-BC53-F42A-1F7F4535BD2E</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD66FB18-FD10-8757-9D4E-38697B7819F2"/>
+<colUsage columnID="75D7182A-1BEE-691E-1585-C3C847A740A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ABB85F9-1EB5-BC3E-59E2-B6C8AABB21C0" name="USUARIOS_LOGIN_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>4AE357E2-F3CD-FA51-1A93-8FC1B169DF76</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F59146B-465B-D88D-FCDA-F62FA0A71460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E130DD94-ECFF-7910-E9F4-56796BDF6C31" name="USUARIOS_CONTRATO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:39:15 UTC</createdTime>
+<generatorID>1DA2C7A4-2B50-2356-CA23-3B988F408BA4</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D7182A-1BEE-691E-1585-C3C847A740A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="743B3ABC-0F86-BB40-D106-D97DF418C8F5" name="SP_CARTOES">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>BD52E49B-80F3-D83E-181E-BAABDB71B14D</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_ID" id="9A163B1D-2987-144F-1CC2-DE18DC759773">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>75B5719C-72CF-CE39-7A7A-766C0C1758D8</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="B90AEB67-1C62-C65F-40D0-1D53910DE3C5">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>D3139110-D451-7A4D-1293-41B6557F4370</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CVV" id="CB0965D7-0E92-135A-22A8-84E85910B53F">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>625740A0-7163-26E0-52D0-D2E889D57CAC</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALIDADE" id="31D9881C-154D-7DA9-43EE-69D62F86049F">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>E677D707-A26A-81CC-F4C8-0F7C7462A049</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATO_CONTRATO_ID" id="94C1E51E-4C94-A29A-CBFB-03E10889F706">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>40A245D3-1BF3-9CB6-D836-583923AC0113</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE558FA5-B85E-9EFB-910D-5858D012AAE9" referredColumn="07384A12-EF4C-A524-14B4-02F37DF8DA6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00859FAE-5544-685E-9306-E74EA5F03D08" name="CARTOES_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>F1129F9A-1274-F96D-C2B2-5B61B69FC131</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A163B1D-2987-144F-1CC2-DE18DC759773"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FB543EE-D607-61BE-A79B-780ECFEB404F" name="CARTOES_CONTRATO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>463A8968-2820-2ADB-5CD9-9E20C57EBFC7</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C1E51E-4C94-A29A-CBFB-03E10889F706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

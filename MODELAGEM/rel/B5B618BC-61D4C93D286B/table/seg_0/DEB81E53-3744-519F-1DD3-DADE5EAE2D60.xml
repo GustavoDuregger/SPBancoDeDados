@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEB81E53-3744-519F-1DD3-DADE5EAE2D60" name="SP_CARROS">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>CCC2B15E-EE97-833F-42A6-068F7A1617DA</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLACA_ID" id="CE57A86C-D3FB-2E56-CC27-E94D16D3E7DD">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>4D0CB800-C500-D47C-D57E-A1F4DF9062D3</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEICULO" id="7E57FC57-A778-2071-EB83-EEB7C2E77D86">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>8A474049-326A-8600-A2F7-8CD9BF32F202</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBS" id="47D53C1B-B9A2-AE5D-F1CC-6E233A3CA434">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>F842CCC1-2EC1-8E2B-0263-76EA234D736E</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSE" id="B6030F73-7635-81A0-A6A4-652AAC4D96AE">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>073929C0-F80C-A482-321F-4351D6697975</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COR" id="5E94EF6D-B994-FF09-A003-9E6BB876A796">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>829AAE1A-E45D-D987-D832-0C0B4046F089</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATO_CONTRATO_ID" id="CD23F8FF-61A0-D483-0E5C-2F20AC0181AF">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>F6C1BD4F-F50E-7C85-C8B3-001079690D56</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8410BAFC-036E-665E-3986-FC2FF9D8F580" referredColumn="07384A12-EF4C-A524-14B4-02F37DF8DA6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF096E37-83EC-BEDC-F62C-3E7D2D1B3D06" name="CARROS_PK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>44E4A8B5-1D07-901A-C5D4-216DC21412EE</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD23F8FF-61A0-D483-0E5C-2F20AC0181AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9768ED1-34F6-FBEB-7FC7-09EA7A70ADC9" name="CARROS_CONTRATO_FK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:17:18 UTC</createdTime>
+<generatorID>E470A25E-EE7A-684F-4D79-49CEA0939DF2</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD23F8FF-61A0-D483-0E5C-2F20AC0181AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

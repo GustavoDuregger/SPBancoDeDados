@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCC2B15E-EE97-833F-42A6-068F7A1617DA" name="SP_CARROS">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:25:09 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PLACA_ID" id="4D0CB800-C500-D47C-D57E-A1F4DF9062D3">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:31:38 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEICULO" id="8A474049-326A-8600-A2F7-8CD9BF32F202">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:32:20 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55</dataTypeSize>
+<ownDataTypeParameters>55,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBS" id="F842CCC1-2EC1-8E2B-0263-76EA234D736E">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:38:42 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLASSE" id="073929C0-F80C-A482-321F-4351D6697975">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:38:49 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COR" id="829AAE1A-E45D-D987-D832-0C0B4046F089">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:38:52 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRATO_ID" id="F6C1BD4F-F50E-7C85-C8B3-001079690D56">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 19:16:25 UTC</createdTime>
+<generatorID>E470A25E-EE7A-684F-4D79-49CEA0939DF2</generatorID>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="true"/>
+</engineerTo>
+<referedAttribute>964F0E55-CDDA-E5CB-9DE9-C485ED8DE924</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44E4A8B5-1D07-901A-C5D4-216DC21412EE" name="CARROS PK">
+<createdBy>gusta</createdBy>
+<createdTime>2020-03-29 18:39:23 UTC</createdTime>
+<ownerDesignName>MODELAGEM</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B5B618BC-FE33-91C4-16C1-61D4C93D286B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6C1BD4F-F50E-7C85-C8B3-001079690D56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
