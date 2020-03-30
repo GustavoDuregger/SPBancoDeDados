@@ -124,3 +124,50 @@ FROM SP_USUARIOS;*/
        TO_CHAR(SYSDATE,'DD/MM/RRRR HH24:MI:SS')
     FROM DUAL;
 */
+
+--OPERADORES DE CONJUNTOS
+/*
+O operador union retorna resultados das duas consultas
+após eliminar os valores duplicados (pra selecionar
+valores duplicados usase union all)
+    Select employee_id, job_id
+    from employees
+    UNION 
+    Select employee_id, job_id
+    from job_history:
+*/
+/*
+O operador intersect retorna linhas comuns as duas consultas
+    Select employee_id, job_id
+    from employees
+    INTERSECT
+    Select employee_id, job_id
+    from job_history:
+*/
+/*
+O operador minus retorna as linhas da primeira consultas
+que não estão presentes na segunda consulta
+    Select employee_id, job_id
+    from employees
+    MINUS
+    Select employee_id, job_id
+    from job_history:
+*/
+
+--CRIAÇAO DE VIEW
+/*
+    CREATE VIEW empvu80
+    as SELECT employee_id, last_name, salary
+    from employees
+    WHERE department_id=80;
+*/
+/*
+    View complexa
+    CREATE VIEW DEPT_SUM_VU
+    (NAME,MINSAL, MAXSAL,AVGSAL)
+    AS SELECT d.department_name, MIN(e.salary),
+            MAX(e.salary),AVG(e.salary)
+    FROM employees e, departments d
+    WHERE e.department_id = d.department_id
+    GROUP BY d.department_name;
+*/
