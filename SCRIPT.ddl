@@ -171,3 +171,21 @@ que não estão presentes na segunda consulta
     WHERE e.department_id = d.department_id
     GROUP BY d.department_name;
 */
+/*
+CREATE OR REPLACE VIEW EMPVU10
+AS SELECT * 
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID=20
+with read only constraint empvu_ck;
+
+SELECT * FROM .EMPVU10;
+
+update empvu20
+set department_id=10
+where employee_id=201;
+rollback;
+desc EMPVU20;
+insert into empvu20
+values (9123,null,'Clarisvertino','claris@xpto',null,sysdate,'IT_PROG',null,null,null,20);
+--Graças ao with check option o dominio nao pode ser alocado, pode deletar e inserir
+*/
